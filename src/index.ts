@@ -1,5 +1,5 @@
 import { createServer, IncomingMessage, ServerResponse } from "http";
-import "os";
+import os from "os";
 
 // Method used to handle incoming requests
 const requestListener = function (req: IncomingMessage, res: ServerResponse) {
